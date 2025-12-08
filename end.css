@@ -1,0 +1,59 @@
+body{
+    user-select: none;
+}
+
+.imgShip{
+    width: 24%;
+    height: auto;
+    margin: 2px;
+    cursor:help;
+    border: 1px solid blue;
+    border-radius: 15px;
+}
+
+
+.imgShip:hover,
+.imgAnchor:hover{
+    scale: 1.25;
+    transition: 0.3s;
+}
+
+.imgSelected{
+    scale: 1.1;
+    border: 3px solid green;    
+}
+
+.imgAnchor{
+    width: auto;
+    height: 90%;
+    margin: 2px;
+    cursor: help;
+    border: 1px solid blue;
+    border-radius: 15px;
+}
+
+.anchors, .ships{
+    max-height: 400px;
+    margin-bottom: 25%;
+    margin-top: 2%;
+}
+
+.chests{
+    margin-bottom: 5%;
+}
+
+.chestInput{
+    min-height: 100px;
+    width: 80px;
+    font-size: 72px;
+    text-align: center;
+    background-color: #2f5d7e;
+    border: 5px solid rgb(0, 128, 255);
+    padding: 2%;
+    border-radius: 15px;
+    color: white;
+}
+
+
+
+
