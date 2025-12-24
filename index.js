@@ -4,7 +4,7 @@ document.getElementById("activityCounter").innerText = activity
 
 
 // Set target date and time
-const targetTime = new Date("2025-12-24T18:00:00");
+const targetTime = new Date("2025-12-31T19:00:00");
 let finalCountdownStarted = false;
 
 function updateCountDownClock() {
